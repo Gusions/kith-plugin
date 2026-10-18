@@ -61,7 +61,7 @@ Demo set: people, companies, addresses and numbers are **fictional**; photos and
 | **Relationships** | Several tags per person, each optionally tied to a company (`former colleague @ Google`), with colors |
 | **Bulk actions** | Select rows → action bar above the table: contacted today, edit, add relationship, archive, delete, calendar |
 | **Filters & KPIs** | Search, filter by relationship / closeness / priority / status, clickable KPI strip (active contacts, overdue follow-ups, upcoming birthdays, high priority) |
-| **Importer** | One importer with automatic detection: LinkedIn `Connections.csv`, phone `.vcf` / Google Contacts CSV, Facebook friends (`.json` / `.html`), generic CSV. Load LinkedIn and your address book together to **cross-check** them (email, profile, name). **You pick who gets imported**; duplicates are detected and nothing is written before you confirm |
+| **Importer** | One importer with automatic detection: LinkedIn `Connections.csv`, phone `.vcf` / Google Contacts CSV, Apple Contacts archive `.abbu`, Facebook friends (`.json` / `.html`), generic CSV. Load LinkedIn and your address book together to **cross-check** them (email, profile, name). **You pick who gets imported**; duplicates are detected and nothing is written before you confirm |
 | **Follow-ups** | "Next follow-up" date or "contact frequency" → automatic due dates, overdue / due-soon badges, "Contacted today" in one click |
 | **Interactions** | Log calls, meetings, messages as notes linked to the person; the last-contact date updates automatically |
 | **Birthdays** | Upcoming-birthday agenda, one-click **Add to Google Calendar** (pre-filled yearly all-day event), `.ics` export |
@@ -195,6 +195,7 @@ Open **New contact ▾ → Import contacts** (or **Customize → Import**, or ru
 | **LinkedIn** | Settings → Data privacy → *Get a copy of your data* → select *Connections* → download the zip → use `Connections.csv` |
 | **iPhone** | iCloud.com → Contacts → select all → *Export vCard* |
 | **Android / Google** | contacts.google.com → Export → vCard (`.vcf`) or Google CSV |
+| **Mac (Contacts app)** | File → Export → *Contacts Archive*, then drop the `.abbu` into the importer (or pick the folder, or a zip of it) |
 | **Facebook** | Settings → Your information → *Download your information* → Friends and followers, JSON → `your_friends.json` (Facebook only exports name and friendship date) |
 | **Generic CSV** | Any CSV with headers like *First name, Last name, Email, Phone, Company…* in English or Italian; `,` or `;` separator |
 

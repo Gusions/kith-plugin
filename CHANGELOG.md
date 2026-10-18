@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.10.0
+
+### New
+- **Apple Contacts archive (`.abbu`) import**: drop the `.abbu` package (or a zip of it, or `AddressBook-v22.abcddb`) into the importer, or use *Choose .abbu folder…*. Names, phones, emails, company, job title, nickname, birthday, city/country, LinkedIn/Instagram links and notes are read directly, with no external tools. Photos and groups are not imported
+
 ## 0.9.5
 
 ### Community plugin release
